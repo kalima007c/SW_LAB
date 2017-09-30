@@ -2,9 +2,7 @@
 #define DEBUG 0 
 void c(void);
 int x = 1;
-int ca=0;
 FILE *fp;
-
 int main()
 {
 	fp = fopen("data.log","w+");
